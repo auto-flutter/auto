@@ -12,7 +12,7 @@ Auto是一个面向测试人员开发的Flutter自动化测试框架
 <img width="1351" alt="screen" src="https://user-images.githubusercontent.com/28224568/110472903-e66c7d80-8118-11eb-98c7-953119310244.png">
 
 
-## 安装
+## 入门
 #### 1.添加依赖
 ```yaml
 dependencies:
