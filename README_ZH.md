@@ -25,7 +25,7 @@ dependencies:
 ```dart
 import 'package:auto/auto.dart';
 void main() {
-  UIAutomator.ensureInitialized();
+  UIAutomator.ensureInitialized(); //确保这行放在代码的最前面
   runApp(UIAutomatorArea(child: MyApp()));
 }
 ```
