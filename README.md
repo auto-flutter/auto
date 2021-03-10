@@ -25,7 +25,7 @@ dependencies:
 ```dart
 import 'package:auto/auto.dart';
 void main() {
-  UIAutomator.ensureInitialized();
+  UIAutomator.ensureInitialized(); //Make sure this line is at the top of the code
   runApp(UIAutomatorArea(child: MyApp()));
 }
 
