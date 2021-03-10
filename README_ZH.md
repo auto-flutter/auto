@@ -1,3 +1,5 @@
+#### Language: [English](README.md) | 中文简体
+
 # Auto
 
 Auto是一个面向测试人员开发的Flutter自动化测试框架
@@ -33,6 +35,10 @@ void main() {
 
 ## 使用
 [演示视频](https://user-images.githubusercontent.com/28224568/110477128-c12e3e00-811d-11eb-9749-e35f359531f3.mp4)
+
+## 相关项目
+- [Auto Ide](https://github.com/auto-flutter/auto_ide) 
+- [Auto Cli](https://github.com/auto-flutter/auto_cli)
 
 ## License
 [Apache-2.0 License](https://github.com/auto-flutter/auto/blob/main/LICENSE)
