@@ -1,0 +1,54 @@
+syntax = "proto3";
+
+enum RecordType {
+    unknown = 0;
+    pointer = 1;
+    softKeyboard = 2;
+    delay = 3;
+    snapshot = 4;
+    disableKeyboard = 5;
+    enableKeyboard = 6;
+}
+
+message RecordPacket {
+    repeated Record data =1;
+}
+
+message Record {
+    RecordType type = 1;
+    int64 delay = 2;
+    repeated PointerRecord pointer = 3;
+    bytes softKeyboard = 4;
+}
+
+message PointerRecord {
+    int64 embedderId = 1;
+    int64 timeStamp = 2;
+    int64 change = 3;
+    int64 kind = 4;
+    int64 signalKind = 5;
+    int64 device = 6;
+    int64 pointerIdentifier = 7;
+    double physicalX = 8;
+    double physicalY = 9;
+    double physicalDeltaX = 10;
+    double physicalDeltaY = 11;
+    int64 buttons = 12;
+    bool obscured = 13;
+    bool synthesized = 14;
+    double pressure = 15;
+    double pressureMin = 16;
+    double pressureMax = 17;
+    double distance = 18;
+    double distanceMax = 19;
+    double size = 20;
+    double radiusMajor = 21;
+    double radiusMinor = 22;
+    double radiusMin = 23;
+    double radiusMax = 24;
+    double orientation = 25;
+    double tilt = 26;
+    double scrollDeltaX = 27;
+    double scrollDeltaY = 28;
+    int64 platformData = 29;
+}

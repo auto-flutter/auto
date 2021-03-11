@@ -1,0 +1,1 @@
+pub global activate protoc_plugin  19.3.0

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BadRequestResponse {
+    int32 errorCode = 1;
+    string message = 2;
+}

@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+enum Platform {
+    unknown = 0;
+    android = 1;
+    ios = 2;
+    windows = 3;
+    macos = 4;
+    linux = 5;
+    web = 6;
+}
+
+enum Mode {
+    undefined = 0;
+    debug = 1;
+    profile = 2;
+    release = 3;
+}
+
+message AppInfo {
+    Platform platform = 1;
+    Mode mode = 2;
+    string deviceName = 3;
+    int32 autoApiVersion = 4;
+    double devicePixelRatio = 6;
+    double textScaleFactor = 7;
+    double physicalHeight = 8;
+    double physicalWidth = 9;
+}

@@ -1,0 +1,18 @@
+name: auto
+description: Auto is a Flutter automated testing framework developed for testers.
+version: 0.0.1
+author: null
+homepage: https://github.com/auto-flutter/auto
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+  flutter: '>=1.22.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  archive: ^2.0.0
+  protobuf: ^1.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter: null
+
