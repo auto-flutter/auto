@@ -29,6 +29,7 @@ void main() {
   runApp(UIAutomatorArea(child: MyApp()));
 }
 ```
+更多详细的配置请看[example](example)项目
 ## IDE安装
 请看[Auto Ide](https://github.com/auto-flutter/auto_ide)
 
