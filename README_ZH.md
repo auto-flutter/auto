@@ -41,5 +41,7 @@ void main() {
 - [Auto Ide](https://github.com/auto-flutter/auto_ide) 
 - [Auto Cli](https://github.com/auto-flutter/auto_cli)
 
+## [FAQ](FAQ_ZH.md)
+
 ## License
 [Apache-2.0 License](https://github.com/auto-flutter/auto/blob/main/LICENSE)
