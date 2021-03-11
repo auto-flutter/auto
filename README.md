@@ -28,8 +28,9 @@ void main() {
   UIAutomator.ensureInitialized(); //Make sure this line is at the top of the code
   runApp(UIAutomatorArea(child: MyApp()));
 }
-
 ```
+For more detailed configuration, please see the [example](example) project
+
 ## IDE Installation
 See: [Auto Ide](https://github.com/auto-flutter/auto_ide)
 
