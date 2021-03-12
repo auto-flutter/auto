@@ -4,4 +4,4 @@ This is because Flutter will create a ballistic simulator to simulate the subseq
 <br>
 
 #### Authorized actions cannot be captured?
-This is because authorized pop-up windows are system-level and cannot be captured. To avoid this problem, please grant the required permissions to the application in advance (if it is Android, you can use adb for authorization).
+This is because authorized pop-up windows are system-level and cannot be captured. To avoid this problem, please grant the required permissions to the application in advance (if it is Android, you can use `adb` for authorization).
