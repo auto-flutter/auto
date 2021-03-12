@@ -4,4 +4,4 @@
 <br>
 
 #### 授权动作无法捕获?
-这是因为授权弹窗是系统层面的,所以无法捕获。为避免此问题,请提前给App授予所需的权限(如果是Android可以使用`adb`进行授权)。
+这是因为授权弹窗是系统层面的,所以无法捕获。为避免此问题,请提前给App授予所需的权限(如果是Android可以使用[adb](https://developer.android.com/studio/command-line/adb#pm)进行授权)。
