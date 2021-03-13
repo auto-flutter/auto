@@ -2,6 +2,9 @@
 
 # Auto
 
+[![](https://img.shields.io/pub/v/auto.svg?label=auto&logo=https%3A%2F%2Fpub.flutter-io.cn%2Fpackages%2Fauto)](https://pub.dev/packages/auto)
+
+
 `Auto`-A simpler Flutter UI automation test solution.
 
 - No need to write any code
