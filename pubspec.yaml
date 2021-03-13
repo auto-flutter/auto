@@ -1,7 +1,7 @@
 name: auto
 description: Auto-A simpler Flutter UI automation test solution.
 version: 0.0.1
-author: null
+email: vivaskerror@gmail.com
 homepage: https://github.com/auto-flutter/auto
 environment:
   sdk: '>=2.7.0 <3.0.0'
