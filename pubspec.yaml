@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
   archive: ^2.0.0
   protobuf: ^1.0.0
+  fixnum: ^0.10.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
