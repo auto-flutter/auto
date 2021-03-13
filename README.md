@@ -2,7 +2,7 @@
 
 # Auto
 
-Auto is a Flutter automated testing framework developed for testers.
+`Auto`-A simpler Flutter UI automation test solution.
 
 - No need to write any code
 - Recording test scripts is very simple
